@@ -185,8 +185,7 @@ function save_config( )
   print ('saved config into ./data/config.lua')
 end
 
--- Returns the config from config.lua file.
--- If file doesn't exist, create it.
+-- Returns the config from config.lua file.-- If file doesn't exist, create it.
 function load_config( )
   local f = io.open('./data/config.lua', "r")
   -- If config.lua doesn't exist
@@ -226,7 +225,7 @@ function create_config( )
     "leave_ban",
     "admin"
     },
-    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(our_id)},--Sudo users
+    sudo_users = {110626080,103649648,143723991,111020322,0,tonumber(6540018185)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Teleseed v2 - Open Source
